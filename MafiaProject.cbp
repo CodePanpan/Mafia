@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MafiaProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MafiaProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MafiaProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BombingMgr.cpp" />
+		<Unit filename="BombingMgr.h" />
+		<Unit filename="Citizen.cpp" />
+		<Unit filename="Citizen.h" />
+		<Unit filename="Dacoit.cpp" />
+		<Unit filename="Dacoit.h" />
+		<Unit filename="DayNightMgr.cpp" />
+		<Unit filename="DayNightMgr.h" />
+		<Unit filename="DetectionMgr.cpp" />
+		<Unit filename="DetectionMgr.h" />
+		<Unit filename="Detective.cpp" />
+		<Unit filename="Detective.h" />
+		<Unit filename="GameMgr.cpp" />
+		<Unit filename="GameMgr.h" />
+		<Unit filename="God.cpp" />
+		<Unit filename="God.h" />
+		<Unit filename="Healer.cpp" />
+		<Unit filename="Healer.h" />
+		<Unit filename="HealingMgr.cpp" />
+		<Unit filename="HealingMgr.h" />
+		<Unit filename="KillingMgr.cpp" />
+		<Unit filename="KillingMgr.h" />
+		<Unit filename="Mafia.cpp" />
+		<Unit filename="Mafia.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="SleepAwakeMgr.cpp" />
+		<Unit filename="SleepAwakeMgr.h" />
+		<Unit filename="VotingMgr.cpp" />
+		<Unit filename="VotingMgr.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
